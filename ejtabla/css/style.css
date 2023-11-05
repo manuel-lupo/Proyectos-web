@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+}
+table{
+    background-color: antiquewhite;
+    border-color: black;
+}
+td{
+    background-color: wheat;
+    border: 1px solid black;
+    width: 5px;
+    height: 5px;
+}
+tr{
+    border: 1px solid black;
+    width: 5px;
+    height: 5px;
+}
+
+td.borde{
+    background-color: cadetblue;
+}
+
+td.destacado{
+    background-color: tomato;
+}
+
+.punta{
+    font-size: smaller;
+    font-weight: bold;
+}
